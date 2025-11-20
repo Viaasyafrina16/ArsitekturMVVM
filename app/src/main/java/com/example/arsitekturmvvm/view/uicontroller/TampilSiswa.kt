@@ -60,7 +60,7 @@ fun TampilSiswa(
                 items.forEach { item ->
                     Column {
                         Text(text = item.first.uppercase(), fontSize = 16.sp)
-                        Text(text = item.second, fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                        Text(text = item.second, fontWeight = FontWeight.Bold, fontSize = 17sp)
                     }
                     Divider(thickness = dimensionResource(id = R.dimen.thickness_divider))
                 }
