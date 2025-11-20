@@ -111,7 +111,7 @@ fun FormSiswa(
 
             HorizontalDivider(
                 modifier = Modifier
-                    .padding(all = 5.dp)
+                    .padding(all = 6.dp)
                     .width(width = 250.dp),
                 thickness = dimensionResource(id = R.dimen.thickness_divider),
                 color = Color.Blue
